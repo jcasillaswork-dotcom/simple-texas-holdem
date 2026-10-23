@@ -27,4 +27,13 @@
 
 **Other Linux:** extract the `.tar.gz` and run `./install.sh`
 
+## Coming next
+
+- **Illustrated cards:** classic pip layouts, drawn face cards and a custom card back.
+- **Opponent portraits** that lean in when they raise and look away when they fold.
+- **Sound:** card snaps and chip clacks, with a mute switch.
+- **Difficulty levels** for the computer players.
+- **Cash games** with rebuys, alongside the current last-player-standing mode.
+- **Tournament payouts** for the top finishers.
+
 <sub>Building it yourself or running your own sync server? See <a href="docs/DEVELOPMENT.md">docs/DEVELOPMENT.md</a>.</sub>
