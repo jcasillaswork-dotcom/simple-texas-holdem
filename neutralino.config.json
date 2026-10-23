@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/neutralinojs/neutralinojs/main/schemas/neutralino.config.schema.json",
+  "applicationId": "app.holdem.desktop",
+  "applicationName": "Holdem",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "port": 53917,
+  "documentRoot": "/dist/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": false,
+  "tokenSecurity": "one-time",
+  "logging": {
+    "enabled": false,
+    "writeToLogFile": false
+  },
+  "modes": {
+    "window": {
+      "title": "Hold’em",
+      "width": 1280,
+      "height": 860,
+      "minWidth": 420,
+      "minHeight": 640,
+      "center": true,
+      "icon": "/dist/pwa-512.png",
+      "enableInspector": false,
+      "exitProcessOnClose": true
+    }
+  },
+  "cli": {
+    "binaryName": "holdem",
+    "resourcesPath": "/dist/",
+    "extensionsPath": "/extensions/",
+    "binaryVersion": "6.9.0",
+    "clientVersion": "6.4.0",
+    "distributionPath": "/release/"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+dist
+dev-dist
+.env
+server/.venv
+server/*.db
+__pycache__
+/bin
+/release
